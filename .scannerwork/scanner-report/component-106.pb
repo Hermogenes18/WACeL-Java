@@ -1,0 +1,1 @@
+j 2javaXhrDsrc/main/java/pe/edu/unsa/daisi/lis/cel/repository/IScenarioDao.java

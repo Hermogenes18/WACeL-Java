@@ -1,0 +1,1 @@
+Z 2javaXóhrIsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/lexicon/Lexicon.java

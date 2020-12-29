@@ -1,0 +1,1 @@
+F 2javaXÏhr`src/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/scenario/structured/StructuredScenario.java

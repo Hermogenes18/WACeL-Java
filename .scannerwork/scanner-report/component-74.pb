@@ -1,0 +1,1 @@
+J 2javaX²hrKsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/scenario/Scenario.java

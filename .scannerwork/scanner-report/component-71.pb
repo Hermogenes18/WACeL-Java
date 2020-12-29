@@ -1,0 +1,1 @@
+G 2javaXZhr_src/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/scenario/structured/StructuredContext.java

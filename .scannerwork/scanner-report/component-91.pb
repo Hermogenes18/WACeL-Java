@@ -1,0 +1,1 @@
+[ 2javaX¦hrVsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/analysis/DefectIndicatorEnum.java

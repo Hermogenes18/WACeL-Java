@@ -1,0 +1,1 @@
+4 2javaXÁhr\src/main/java/pe/edu/unsa/daisi/lis/cel/service/analysis/ConsistencyAnalysisServiceImpl.java

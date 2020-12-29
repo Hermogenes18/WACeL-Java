@@ -1,0 +1,1 @@
+_ 2javaXVhrVsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/analysis/QualityPropertyEnum.java

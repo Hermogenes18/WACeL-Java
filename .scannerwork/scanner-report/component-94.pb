@@ -1,0 +1,1 @@
+^ 2javaXvhrIsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/analysis/Defect.java

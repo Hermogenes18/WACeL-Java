@@ -1,0 +1,1 @@
+S 2javaX£hrKsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/petrinet/PetriNet.java

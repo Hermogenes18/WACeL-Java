@@ -1,0 +1,1 @@
+ 2javaX¾hrTsrc/main/java/pe/edu/unsa/daisi/lis/cel/util/nlp/dictionary/english/SpecialVerb.java

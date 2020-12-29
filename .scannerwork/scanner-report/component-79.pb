@@ -1,0 +1,1 @@
+O 2javaX0hrNsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/petrinet/ArcTypeEnum.java

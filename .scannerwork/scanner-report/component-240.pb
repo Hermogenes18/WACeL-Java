@@ -1,0 +1,1 @@
+ð 2jspXthr.src/main/webapp/WEB-INF/views/lexicon/list.jsp

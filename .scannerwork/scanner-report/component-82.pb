@@ -1,0 +1,1 @@
+R 2javaX2hrOsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/petrinet/NodeTypeEnum.java

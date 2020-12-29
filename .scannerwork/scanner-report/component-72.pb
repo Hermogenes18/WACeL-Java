@@ -1,0 +1,1 @@
+H 2javaXùhr_src/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/scenario/structured/StructuredEpisode.java

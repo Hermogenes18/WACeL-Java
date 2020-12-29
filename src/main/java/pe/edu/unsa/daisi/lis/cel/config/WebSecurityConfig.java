@@ -27,7 +27,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Bean
 	public BCryptPasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
-	};
+	}
 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -53,7 +53,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         .authorizeRequests().antMatchers("/logout").permitAll()
         .and()
         .authorizeRequests().antMatchers("/timeout").permitAll()
-        
         .and()
 		.authorizeRequests().antMatchers("/view/**").authenticated() //hasAnyRole("ADMIN", "USER")
 		.and()
@@ -67,24 +66,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		.tokenValiditySeconds(86400)
 		.and().exceptionHandling().accessDeniedPage("/Access_Denied")
 		.and().csrf().disable();
-
-		/*
-     http.authorizeRequests().anyRequest().hasAnyRole("ADMIN", "USER")
-    .and()
-    .authorizeRequests().antMatchers("/login**").permitAll()
-    .and()
-    .formLogin().loginPage("/login").loginProcessingUrl("/loginAction").permitAll()
-    .and()
-    .logout().logoutSuccessUrl("/login").permitAll()
-    .and()
-    .csrf().disable();
-		 */
 	}
 	@Bean
 	public PersistentTokenBasedRememberMeServices getPersistentTokenBasedRememberMeServices() {
-		PersistentTokenBasedRememberMeServices tokenBasedservice = new PersistentTokenBasedRememberMeServices(
-				"remember-me", userDetailsService, tokenRepository);
-		return tokenBasedservice;
+		return new PersistentTokenBasedRememberMeServices("remember-me", userDetailsService, tokenRepository);
 	}
 
 	@Bean

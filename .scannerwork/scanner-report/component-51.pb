@@ -1,0 +1,1 @@
+3 2javaXhrYsrc/main/java/pe/edu/unsa/daisi/lis/cel/service/analysis/IConsistencyAnalysisService.java

@@ -1,0 +1,1 @@
+Y 2javaX®hrIsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/lexicon/Synonym.java

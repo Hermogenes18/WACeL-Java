@@ -1,0 +1,1 @@
+ 2javaXÍhrZsrc/main/java/pe/edu/unsa/daisi/lis/cel/util/scenario/preprocess/ScenarioManipulation.java

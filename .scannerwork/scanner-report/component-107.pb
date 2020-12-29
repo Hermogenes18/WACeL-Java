@@ -1,0 +1,1 @@
+k 2javaXhrCsrc/main/java/pe/edu/unsa/daisi/lis/cel/repository/ISynonymDao.java

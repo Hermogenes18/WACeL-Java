@@ -1,0 +1,1 @@
+Q 2javaX_hrFsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/petrinet/Arc.java

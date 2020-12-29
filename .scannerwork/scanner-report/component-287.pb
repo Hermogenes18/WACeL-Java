@@ -1,0 +1,1 @@
+Ÿ 2jsXéhr<src/test/src/main/webapp/assets/js/bootstrap/js/bootstrap.js

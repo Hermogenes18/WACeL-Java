@@ -1,0 +1,1 @@
+I 2javaX£hrcsrc/main/java/pe/edu/unsa/daisi/lis/cel/domain/model/scenario/structured/StructuredAlternative.java
