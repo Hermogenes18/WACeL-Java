@@ -2,25 +2,17 @@
 
 <img src="./img/sonar.png" width="760">
 
-### Analizando Codigo Java
-<img src="./img/sonar.png" width="760">
+# Prácticas de Clean Code
+* Indentación
+* Agrupación de código
+* Evitar la anidación profunda (Avoid Deep Nesting)
 
-## Correción de Code Smells y Vulnerabilities
-### Archivo WebSecurityConfig.java
-- Remove this empty statement.
-- This block of commented-out lines of code should be removed.
-- Immediately return this expression instead of assigning it to the temporary variable "tokenBasedservice".
-### Archivo Defect.java
-- This block of commented-out lines of code should be removed.
-- This block of commented-out lines of code should be removed.
-### Archivo QualityPropertyEnum.java
-- Replace the type specification in this constructor call with the diamond operator 
-- This block of commented-out lines of code should be removed.
-### Archivo Lexicon.java
-- This block of commented-out lines of code should be removed.
-- 4 duplicated blocks of code must be removed.
-### Archivo Arc.java
-- This block of commented-out lines of code should be removed
+# Refactoring
+
+## Factory
+### Función PosTagImprover.java
+Eliminación de algunos comentarios innecesarios.\
+Uso de bucles for en lugar de las condicionales if para un mejor orden en el código, asi como la creación de más objetos ArrayList.
 
 
 # WACeL-Java
