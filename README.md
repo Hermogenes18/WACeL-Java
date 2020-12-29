@@ -2,6 +2,42 @@
 
 <img src="./img/sonar.png" width="760">
 
+### Analizando Codigo Java
+<img src="./img/sonar.png" width="760">
+
+## Correción de Code Smells y Vulnerabilities
+### Archivo WebSecurityConfig.java
+- Remove this empty statement.
+- This block of commented-out lines of code should be removed.
+- Immediately return this expression instead of assigning it to the temporary variable "tokenBasedservice".
+### Archivo Defect.java
+- This block of commented-out lines of code should be removed.
+- This block of commented-out lines of code should be removed.
+### Archivo QualityPropertyEnum.java
+- Replace the type specification in this constructor call with the diamond operator 
+- This block of commented-out lines of code should be removed.
+### Archivo Lexicon.java
+- This block of commented-out lines of code should be removed.
+- 4 duplicated blocks of code must be removed.
+### Archivo Arc.java
+- This block of commented-out lines of code should be removed
+### Archivo Node.java
+- This block of commented-out lines of code should be removed.
+### Archivo PetriNet.java
+- Remove this unused import 'java.util.ListIterator'.
+- This block of commented-out lines of code should be removed.
+- Remove this unused private "findNodeByLabel" method.
+- Merge this if statement with the enclosing one.
+- This block of commented-out lines of code should be removed.
+- Replace the type specification in this constructor call with the diamond operator ("<>").
+- Replace this use of System.out or System.err by a logger.
+- Remove this useless assignment to local variable "nodeA".
+#### Archivo ProjectDaoImpl.java
+- This block of commented-out lines of code should be removed.
+- Remove this useless assignment to local variable "projects".
+#### Archivo ScenarioDaoImpl.java
+- Remove this useless assignment to local variable "scenarios".
+
 # Prácticas de Clean Code
 * Indentación
 * Agrupación de código
@@ -14,7 +50,7 @@
 Eliminación de algunos comentarios innecesarios.\
 Uso de bucles for en lugar de las condicionales if para un mejor orden en el código, asi como la creación de más objetos ArrayList.
 
-´´´java
+```java
 for(int i = 0; i < allNouns.size(); i++ ){
 	CustomToken noun = allNouns.get(i);
 	//GIVEN (Antecedent)
@@ -38,7 +74,7 @@ for(int i = 0; i < allNouns.size(); i++ ){
 		}
 	}
 }
- ´´´
+```
 
 # WACeL-Java
 # Automated Analysis of Natural Language Requirements: Scenarios &amp; Lexicons Tool
