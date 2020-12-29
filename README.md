@@ -2,6 +2,25 @@
 
 <img src="./img/sonar.png" width="760">
 
+### Analizando Codigo Java
+<img src="./img/sonar.png" width="760">
+
+## Correción de Code Smells y Vulnerabilities
+### Archivo WebSecurityConfig.java
+- Remove this empty statement.
+- This block of commented-out lines of code should be removed.
+- Immediately return this expression instead of assigning it to the temporary variable "tokenBasedservice".
+### Archivo Defect.java
+- This block of commented-out lines of code should be removed.
+- This block of commented-out lines of code should be removed.
+### Archivo QualityPropertyEnum.java
+- Replace the type specification in this constructor call with the diamond operator 
+- This block of commented-out lines of code should be removed.
+### Archivo Lexicon.java
+- This block of commented-out lines of code should be removed.
+- 4 duplicated blocks of code must be removed.
+
+
 
 # WACeL-Java
 # Automated Analysis of Natural Language Requirements: Scenarios &amp; Lexicons Tool
