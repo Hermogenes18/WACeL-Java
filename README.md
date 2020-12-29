@@ -19,7 +19,8 @@
 ### Archivo Lexicon.java
 - This block of commented-out lines of code should be removed.
 - 4 duplicated blocks of code must be removed.
-
+### Archivo Arc.java
+- This block of commented-out lines of code should be removed
 
 
 # WACeL-Java
