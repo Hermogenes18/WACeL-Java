@@ -1,3 +1,8 @@
+# Análisis estático
+
+<img src="./img/sonar.png" width="760">
+
+
 # WACeL-Java
 # Automated Analysis of Natural Language Requirements: Scenarios &amp; Lexicons Tool
 
