@@ -14,6 +14,33 @@
 Eliminación de algunos comentarios innecesarios.\
 Uso de bucles for en lugar de las condicionales if para un mejor orden en el código, asi como la creación de más objetos ArrayList.
 
+´´´
+for(int i = 0; i < allNouns.size(); i++ ){
+				CustomToken noun = allNouns.get(i);
+				//GIVEN (Antecedent)
+				if(SpecialVerb.NOUNS_AND_VERBS_HASH.containsKey(noun.getStem()) && !tokens.get(allNouns.get(i).getIndex()).isConfirmedNoun()) {
+					//WHEN
+					//Previous Tokens (contains POS tags:)
+					
+					String regexprevpostags = "(^|.*CC)$";
+					String prevPOSs = getPosTagsAsString(tokens, 0, noun.getIndex());
+					//Next Tokens (contains POS tags:)
+					String regexnextpostags = "^(NN.?\\s+(NN.?|VB.?)).*";
+					String nextPOSs = getPosTagsAsString(tokens, noun.getIndex()+1, tokens.size());
+					if(prevPOSs.matches(regexprevpostags) && nextPOSs.matches(regexnextpostags)) {
+						//THEN (Adjust Token)
+						if(noun.getIndex() + 2 < tokens.size() && tokens.get(noun.getIndex() + 2) != null) {
+							CustomToken nextToken =  tokens.get(allNouns.get(i).getIndex() + 2);
+							String singularNounNext = nextToken.getStem();
+							if(nextToken.getPosTag().contains(PosTagEnum.VB.name()) || SpecialVerb.NOUNS_AND_VERBS_HASH.containsKey(singularNounNext)) {
+								tokens.get(allNouns.get(i).getIndex()).setConfirmedNoun(true);
+								
+							}	
+						} 											
+					}
+				}
+			}
+ ´´´
 
 # WACeL-Java
 # Automated Analysis of Natural Language Requirements: Scenarios &amp; Lexicons Tool
